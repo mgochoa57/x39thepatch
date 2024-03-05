@@ -1,0 +1,96 @@
+body { font-family: Lato, Arial, Helvetica, sans-serif; font-size: 19px; margin: 0}
+video { box-shadow: 8px 8px 20px  #888888; }
+iframe { box-shadow: 8px 8px 20px  #888888; }
+
+div.opening{
+    background-image: url('../images/dna.gif');
+    color: #FFFFFF;
+    padding: 60px;
+}
+.intro-left{
+    width: fit-content;
+    display: grid;
+    place-items: center;
+}
+.intro-right{
+    width: fit-content;
+    display: grid;
+    place-items: center;
+    float: right;
+}
+.intro-text{
+    text-align: right;
+}
+div.intel{
+    padding: 40px;
+}
+.rounded-image {
+    border-radius: 20px; /* Adjust the pixel value to control the roundness */
+}
+div.shop{
+    background-image: url('../images/dna-man.gif');
+    background-repeat: no-repeat;
+    background-size: cover; /* or contain, depending on your needs */
+}
+.shop-item{
+    padding: 20px 20px 0px 40px;
+}
+div.video-box{
+    display: flex; /* Enables Flexbox */
+    align-items: center; /* Vertically center align-items */
+    gap: 90px; /* Spacing between the video and the text */
+}
+.video-box > video {
+    flex-shrink: 0; /* Prevent iframe from shrinking */
+    width: 480px; /* Optional, since width/height are set in HTML */
+    height: 270px; /* Optional, since width/height are set in HTML */
+}
+.video-box > iframe {
+    border: 0;
+    flex-shrink: 0; /* Prevent iframe from shrinking */
+    width: 480px; /* Optional, since width/height are set in HTML */
+    height: 270px; /* Optional, since width/height are set in HTML */
+}
+.video-text-18{
+    color: #183871;
+    flex: 1; /* Takes up the remaining space */
+    text-align: left; /* Ensures text is left-justified */
+}
+.video-text-44{
+    font-family: 'Open Sans';
+    color: #444444;
+    flex: 1; /* Takes up the remaining space */
+    text-align: left; /* Ensures text is left-justified */
+}
+
+
+div.break{
+    background-image: url('../images/dna2.gif');
+    background-repeat: no-repeat;
+    background-size: cover; /* or contain, depending on your needs */
+    background-position: center; /* This centers the image vertically and horizontally */
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.test{
+    border: 0.25rem solid white;
+}
+
+div.closing{
+    background-color: #375487;
+    color: #FFFFFF;
+    padding: 40px 60px 20px 60px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+a.white{
+    color: #FFFFFF;
+}
+a.white a:hover {
+    color: #FFFFFF;
+}
+a.white a:visited {
+    color: #FFFFFF;
+}
